@@ -1,0 +1,17 @@
+<h1>Listing articles</h1>
+ 
+<table>
+  <tr>
+    <th>edm id</th>
+    <th>mail id</th>
+    <th>time </th>
+  </tr>
+ 
+  <% @edmrecords.each do |edmrecord| %>
+    <tr>
+      <td><%= edmrecord.edmid %></td>
+      <td><%= edmrecord.mailid %></td>
+      <td><%= edmrecord.created_at.to_s(:long) %> </td>
+    </tr>
+  <% end %>
+</table>

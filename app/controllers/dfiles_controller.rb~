@@ -1,0 +1,2 @@
+class DfilesController < ApplicationController
+end

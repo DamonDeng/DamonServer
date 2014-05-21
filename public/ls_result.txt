@@ -1,0 +1,11 @@
+AndroidStudioProjects
+Desktop
+Documents
+Downloads
+Downloads-1.(null)
+Library
+Movies
+Music
+Pictures
+Public
+phonegap

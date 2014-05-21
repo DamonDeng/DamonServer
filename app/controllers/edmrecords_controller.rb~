@@ -1,0 +1,2 @@
+class EdmrecordsController < ApplicationController
+end

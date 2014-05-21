@@ -1,0 +1,15 @@
+<h1>Listing articles</h1>
+ 
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+  </tr>
+ 
+  <% @edmrecords.each do |edmrecord| %>
+    <tr>
+      <td><%= edmrecord.edmid %></td>
+      <td><%= edmrecord.mailid %></td>
+    </tr>
+  <% end %>
+</table>
